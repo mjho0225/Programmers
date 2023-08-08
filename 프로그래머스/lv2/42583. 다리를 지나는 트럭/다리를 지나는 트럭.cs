@@ -55,6 +55,7 @@ public class Solution {
             }
                 
         }
+        // 마지막 트럭이 나갈때까지 시간+
         time += bridge_length;
         return time;
     }
