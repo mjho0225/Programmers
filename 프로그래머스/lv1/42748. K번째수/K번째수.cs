@@ -14,12 +14,10 @@ public class Solution {
             int subArrayLength = endIdx - startIdx + 1;
             int[] subArray = new int[subArrayLength];
             
-            // 배열을 복사하여 자릅니다.
             Array.Copy(array, startIdx, subArray, 0, subArrayLength);
 
             Array.Sort(subArray);
 
-            // k번째 숫자를 결과 배열에 저장합니다.
             answer[i] = subArray[k];
         }
 
