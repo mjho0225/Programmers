@@ -2,7 +2,7 @@ using System;
 
 public class Solution {
     public int solution(int[,] sizes) {
-                int maxHorizontal = 0;
+        int maxHorizontal = 0;
         int maxVertical = 0;
 
         for (int i = 0; i < sizes.GetLength(0); i++) {
